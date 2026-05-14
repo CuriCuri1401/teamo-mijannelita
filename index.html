@@ -73,84 +73,121 @@
 <div class="container">
 
     <h1>Hola Cynthia ❤️</h1>
-    <p>Hoy cumplimos 1 año y 4 meses juntos 💖</p>
-    <p>Te preparé este pequeño juego porque eres muy especial para mí ✨</p>
+    <p>Hoy cumplimos 1 año y 4 meses juntos ✨</p>
+    <p>Te preparé esto porque eres una de las personas más importantes en mi vida 💖</p>
+    <p>Quiero que respondas con el corazón… 💌</p>
 
     <!-- Pregunta 1 -->
     <div class="question" id="q1" style="display:block;">
-        <h2>1. ¿Quién te ama más?</h2>
-        <button onclick="nextQuestion(2)">Yo ❤️</button>
-        <button onclick="nextQuestion(2)">Muchísimo yo 💘</button>
-        <button onclick="nextQuestion(2)">Obviamente yo 😌</button>
+        <h2>1. ¿Te gustaría seguir construyendo nuestro futuro juntos? ❤️</h2>
+        <button onclick="nextQuestion(2)">Sí, siempre</button>
+        <button onclick="nextQuestion(2)">Por supuesto 💕</button>
+        <button onclick="nextQuestion(2)">Toda la vida contigo ✨</button>
     </div>
 
     <!-- Pregunta 2 -->
     <div class="question" id="q2">
-        <h2>2. ¿Qué pienso cuando te veo?</h2>
-        <button onclick="nextQuestion(3)">Qué hermosa 😍</button>
-        <button onclick="nextQuestion(3)">Qué suerte tengo ❤️</button>
-        <button onclick="nextQuestion(3)">Las dos anteriores ✨</button>
+        <h2>2. ¿Crees que nuestra historia apenas está comenzando? 💖</h2>
+        <button onclick="nextQuestion(3)">Sí, y será hermosa</button>
+        <button onclick="nextQuestion(3)">Lo mejor aún viene ❤️</button>
+        <button onclick="nextQuestion(3)">Sin duda alguna ✨</button>
     </div>
 
     <!-- Pregunta 3 -->
     <div class="question" id="q3">
-        <h2>3. ¿Qué me gusta más de ti?</h2>
-        <button onclick="nextQuestion(4)">Tu sonrisa 😊</button>
-        <button onclick="nextQuestion(4)">Tu forma de ser 💕</button>
-        <button onclick="nextQuestion(4)">Todo de ti ❤️</button>
+        <h2>3. ¿Te gustaría seguir creando recuerdos bonitos conmigo? 🌸</h2>
+        <button onclick="nextQuestion(4)">Muchísimos más</button>
+        <button onclick="nextQuestion(4)">Cada día uno nuevo 💕</button>
+        <button onclick="nextQuestion(4)">Siempre juntos ❤️</button>
     </div>
 
     <!-- Pregunta 4 -->
     <div class="question" id="q4">
-        <h2>4. ¿Qué deseo contigo?</h2>
-        <button onclick="nextQuestion(5)">Muchos más meses juntos 💖</button>
-        <button onclick="nextQuestion(5)">Muchos recuerdos bonitos ✨</button>
-        <button onclick="nextQuestion(5)">Toda una vida ❤️</button>
+        <h2>4. ¿Sientes que juntos somos un bonito equipo? ✨</h2>
+        <button onclick="nextQuestion(5)">Sí, totalmente</button>
+        <button onclick="nextQuestion(5)">Somos mi lugar favorito ❤️</button>
+        <button onclick="nextQuestion(5)">Más de lo que imaginas 💖</button>
     </div>
 
     <!-- Pregunta 5 -->
     <div class="question" id="q5">
-        <h2>5. ¿Sabes cuánto te amo?</h2>
-        <button onclick="showFinal()">Muchísimo ❤️</button>
-        <button onclick="showFinal()">Más de lo imaginable 💘</button>
-        <button onclick="showFinal()">Infinitamente ♾️</button>
+        <h2>5. ¿Te gustaría que este amor dure para siempre? ♾️</h2>
+        <button onclick="nextQuestion(6)">Sí, infinitamente</button>
+        <button onclick="nextQuestion(6)">Sin final ❤️</button>
+        <button onclick="nextQuestion(6)">Toda una vida juntos ✨</button>
     </div>
 
-    <!-- Mensaje Final -->
+    <!-- Pregunta 6 -->
+    <div class="question" id="q6">
+        <h2>6. ¿Seguirías eligiéndonos una y otra vez? 💌</h2>
+        <button onclick="nextQuestion(7)">Siempre ❤️</button>
+        <button onclick="nextQuestion(7)">Mil veces sí 💕</button>
+        <button onclick="nextQuestion(7)">En esta y en todas las vidas ✨</button>
+    </div>
+
+    <!-- Pregunta 7 -->
+    <div class="question" id="q7">
+        <h2>7. ¿Sientes que nuestro amor vale cada esfuerzo y cada momento vivido? 🥺</h2>
+        <button onclick="nextQuestion(8)">Cada segundo ❤️</button>
+        <button onclick="nextQuestion(8)">Sin duda alguna 💖</button>
+        <button onclick="nextQuestion(8)">Más de lo que imaginas ✨</button>
+    </div>
+
+    <!-- Pregunta 8 -->
+    <div class="question" id="q8">
+        <h2>8. ¿Si pudieras volver a empezar, me elegirías otra vez? 🌙</h2>
+        <button onclick="showFinal()">Una y mil veces ❤️</button>
+        <button onclick="showFinal()">Siempre te elegiría 💕</button>
+        <button onclick="showFinal()">En todas mis vidas ✨</button>
+    </div>
+
+    <!-- Carta Final -->
     <div id="finalMessage">
         <div class="heart">❤️</div>
         <h2>Para ti, Cynthia</h2>
 
         <p>
-            Gracias por este 1 año y 4 meses juntos.  
-            Gracias por cada risa, cada conversación, cada momento bonito
-            y también por los momentos difíciles que hemos superado.
+            Gracias por este 1 año y 4 meses juntos.
+            Gracias por cada risa, cada conversación,
+            cada abrazo, cada mirada y cada momento bonito
+            que hemos compartido.
         </p>
 
         <p>
-            Eres una persona muy importante para mí, alguien que llegó
-            a mi vida para hacerla más bonita, más especial y más feliz.
-            Tu sonrisa, tu forma de ser y tu manera de estar conmigo
-            significan muchísimo para mí.
+            Desde que llegaste a mi vida, muchas cosas cambiaron.
+            Hiciste mis días más bonitos, mis pensamientos más felices
+            y mis sentimientos mucho más profundos.
         </p>
 
         <p>
-            A veces no encuentro las palabras exactas para decir todo
-            lo que siento, pero sí sé algo:
-            te amo profundamente y agradezco tenerte en mi vida.
+            Eres una persona demasiado especial para mí,
+            alguien que no quiero perder y con quien quiero seguir
+            construyendo momentos, recuerdos y una historia hermosa.
         </p>
 
         <p>
-            Espero seguir construyendo recuerdos contigo,
-            seguir riendo contigo, seguir creciendo juntos
-            y seguir celebrando muchos meses más.
+            A veces no sé cómo explicar todo lo que siento,
+            pero sí sé que contigo me siento tranquilo,
+            feliz y con ganas de seguir adelante.
         </p>
 
         <p>
-            Hoy solo quiero recordarte algo muy simple pero muy real:
+            Tu sonrisa, tu forma de ser, tu manera de estar conmigo
+            y todo lo que eres… significa muchísimo para mí.
+        </p>
+
+        <p>
+            Hoy no solo celebramos tiempo,
+            celebramos todo lo que hemos vivido
+            y todo lo que aún nos falta por vivir juntos.
         </p>
 
         <h2>Te amo mucho ❤️</h2>
+
+        <p>
+            Y si pudiera elegir otra vez,
+            volvería a elegirte a ti.
+        </p>
 
         <p>
             Feliz 1 año y 4 meses, mi amor ✨
@@ -161,18 +198,16 @@
 
 <script>
 function nextQuestion(next) {
-    let current = document.querySelector(".question:not([style*='display: none'])");
-    if (current) {
-        current.style.display = "none";
-    }
+    let questions = document.querySelectorAll(".question");
+    questions.forEach(q => q.style.display = "none");
+
     document.getElementById("q" + next).style.display = "block";
 }
 
 function showFinal() {
-    let current = document.querySelector(".question:not([style*='display: none'])");
-    if (current) {
-        current.style.display = "none";
-    }
+    let questions = document.querySelectorAll(".question");
+    questions.forEach(q => q.style.display = "none");
+
     document.getElementById("finalMessage").style.display = "block";
 }
 </script>
